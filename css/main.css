@@ -39,7 +39,11 @@ a:hover {
   color: #113c00;
 }
 
-nav a:hover {
+nav a:focus {
+  outline: 3px solid #000;
+}
+
+nav a .ib:hover {
   background-color: #fff;
   color: #113c00;
 }
