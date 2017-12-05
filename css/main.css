@@ -16,7 +16,7 @@ html {
   color: #fff;
 }
 
-.nav {
+nav {
   position: relative;
   background-color: #113c00;
   z-index: 2;
@@ -31,21 +31,13 @@ nav a {
   text-decoration: none;
 }
 
-a:focus {
-  outline: 3px solid #000;
-}
-
 a:hover {
   color: #113c00;
 }
 
-nav a:focus {
+nav a:hover,
+.nav a:focus {
   outline: 3px solid #000;
-}
-
-nav a .ib:hover {
-  background-color: #fff;
-  color: #113c00;
 }
 
 .about {
