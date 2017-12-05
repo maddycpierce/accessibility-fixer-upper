@@ -79,6 +79,10 @@ td {
   border-color: #568c36;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .footer {
   background-color: #113c00;
   color: #fff;
